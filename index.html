@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORCE_FITNESS</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- navigation start -->
+        <nav class="navigation">
+            <div class="brandname">FORCE_FITNESS</div>
+            <div class="openmenu"><i class="fa fa-bars"></i></div>
+            <div class="navright">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About_US</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#healthtools">Health_tools</a></li>
+                    <li><a href="#contact">Contact</a></li>
+
+                    <div class="closemenu"><i class="fa fa-times"></i></div>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- navigation end -->
+        <!-- HOME START -->
+        <section id="home">
+            <div class="homecontainer">
+                <div class="h1">Hello...</div>
+                <div class="h2">We Welcome You to</div>
+                <div class="h3">FORCE_FITNESS</div>
+                <div class="h4">GYM_Website</div>
+                <div class="h5">7762042085</div>
+            </div>
+        </section>
+        <hr>
+        <hr>
+        <!-- HOME END -->
+        <!-- about start -->
+        <section id="about">
+            <div class="aboutcontainer">
+
+                <div class="aboutcontent">
+                    <div class="h3">About_US</div>
+                    <div class="heading">We are FORCE_FITNESS , <br>The best gym in patna </div>
+                    <hr>
+                    <hr>
+                    <div class="aboutexplain">At FORCE_FITNESS, we belive in providing a holistic gymming and workout
+                        experience to our customeres. With state of the art equipments available for a variety of
+                        exercises such as Crossfit, Endurance, Cardio, Strength and an immacalute team of Personsal
+                        Trainers present ever vigilantly throughout the day to help out and couch our members whenever
+                        needed, we at FORCE_FITNESS gym promise to be the best gym in Patna.</div>
+                </div>
+                <div class="aboutimg">
+                    <img src="image/about.jpg" alt="" srcset="">
+                </div>
+            </div>
+
+        </section><hr><hr>
+        <!-- about end -->
+        <!-- services start -->
+        <section id="services">
+            <div class="servicescontainer"></div>
+            <div class="h3">Services</div>
+            <div class="serviceheading">Have a look at our services</div>
+            <div class="servicesimg">
+                <div class="imgbox">
+                <div class="img1"><img src="image/service1.jpg" alt="" srcset="">
+                </div> 
+                <div class="explain">
+                    <div class="h2">Aerobics/Zumba</div>
+                    <hr>
+                    <h1> Grove and workout to trendy tunes</h1>
+                </div>
+                </div>
+                <div class="imgbox">
+                <div class="img1"><img src="image/service2.jpg" alt="" srcset="">
+                </div>
+                <div class="explain">
+                    <div class="h2">Crossfit_Training</div>
+                    <hr>
+                    <h1>High intensity workouts with your friends</h1>
+                </div>
+                </div>
+                <div class="imgbox img2">
+                <div class="img1"><img src="image/service3.jpg" alt="" srcset="">
+                </div>
+                <div class="explain">
+                    <div class="h2">Strength_Training</div>
+                    <hr>
+                    <div>
+                    <h1>Gain muscle weight at FORCE_FITNESS gym</h1>
+                </div>
+                </div>
+                </div>
+                
+                <div class="imgbox">
+                <div class="img1"><img src="image/service4.jpg" alt="" srcset="">
+                </div>
+                <div class="explain">
+                    <div class="h2">Cardio</div>
+                    <hr>
+                    <h1>Take care of your heart</h1>
+                </div>
+                </div>
+                <div class="imgbox img5">
+                <div class="img1"><img src="image/service5.jpg" alt="" srcset="">
+                </div>
+                <div class="explain">
+                    <div class="h2">Endurance_Training</div>
+                    <hr>
+                    <h1>Build your stamina with us.</h1>
+                </div>
+                </div>
+                
+            </div>
+        </section><hr><hr>
+        <!-- services end -->
+        <!-- health tools start -->
+        <section id="healthtools">
+            <div class="heading">Calculate your BMI and BMR</div>
+            <div class="h2">Get more accurate about your body type and calorie intake</div>
+            <div class="healthcontainer">
+                <div class="bmi">
+                    <div class="h10">BMI_Calculator</div>
+                    <p class="text">Height</p>
+                    <input type="number" id="h">
+                    <p class="text">Weight</p>
+                    <input type="number" id="w">
+                    <p id="result"></p>
+                    <button id="btn" onclick="BMI()">Calculate</button>
+                    <p id="info">Please enter height in [cm] and weight in [kg]</p>
+                </div>
+                <div class="bmr">
+                    <div class="h10">BMR_Calculator</div>
+                    <div class="inputbmr">
+                        Height: <br>
+                        <input type="number" placeholder=" in cm" id="height"><br>
+                        Weight: <br>
+                        <input type="number" placeholder="in kg" id="weight"><br>
+                        Age: <br>
+                        <input type="number" placeholder="Between 15-80" id="age"><br>
+                        <div class="gender">Gender
+                            <input type="radio" id="male" name="gender" value="male">
+                            <label for="male">Male</label>
+                            <input type="radio" id="female" name="gender" value="female">
+                            <label for="female">Female</label>
+                        </div><br>
+                        <div id="bmrmessage"></div>
+                        <button class="calculate" onclick="BMR()">Calculate BMR</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- health tools end -->
+        
+        <!-- contact start -->
+      <!-- contact start -->
+      <section id="contact">
+        <div class="contactcontent">
+            <div class="h1">Contact___</div>
+            <div class="h3">Join us now</div>
+            <div class="contactsection">
+                <form action="" class="form">
+                    Name <br>
+                    <input type="text" placeholder="Your_name" class="input"><br>
+                    <br> Email id <br>
+                    <input type="email" placeholder="Your email" class="input"><br>
+                     <br> Contact_no. <br>
+                    <input type="number" placeholder="Phone_no." class="input"><br>
+                    <br><br><hr><br>
+                    <textarea name="" id="" cols="30" rows="5" style="width: 100%;" class="input" placeholder="Your concern"></textarea>
+                    <button id="submitbtn">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- contact end -->
+    <!-- footer start -->
+    <div class="footer">
+        <p>copyright 2020 @shubham-singh</p>
+        <div class="socialicon-footer">
+            <a href="https://www.facebook.com/profile.php?id=100016748835401" target="_blank"><i
+                    class="fab fa-facebook"></i></a>
+            <a href="https://www.instagram.com/shubhamsingh6569/?hl=en" target="_blank"><i
+                    class="fab fa-instagram"></i></a>
+            <a href="https://api.whatsapp.com/send?phone=7762042085/" target="_blank"><i
+                    class="fab fa-whatsapp"></i></a>
+            <a href="https://github.com/Shubham-Singh1810" target="_blank"><i
+                    class="fab fa-github git"></i></a>
+        </div>
+    </div>
+    <!-- footer start -->
+    </div>
+    <script src="js/health.js"></script>
+    <script src="js/file.js"></script>
+</body>
+
+</html>

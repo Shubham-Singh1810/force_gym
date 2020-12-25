@@ -1,0 +1,366 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+   height: 100vh;
+   overflow: hidden;
+
+}
+html{
+    font-size: 62.5%;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+.navigation{
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    width: 100%;
+    height: 5rem;
+    background: rgba(0,0,0,.9);
+    justify-content: space-around;
+    font-size: 2rem;
+    border-bottom: 1px solid white;
+}
+.navright ul{
+    display: flex;
+    list-style: none;
+    width: 100%;
+    
+}
+.navright ul li{
+    margin: 0 1rem;
+    padding: 1rem;
+}
+.navright ul li a{
+    text-decoration: none;
+    color: white;
+}
+.navright ul li a:hover{
+    color: tomato;
+    text-shadow: 1px 1px 1px black;
+}
+.brandname{
+    color: tomato;
+    text-shadow: 1px 1px 1px black;
+    margin: 0 1rem;
+    padding: 1rem;
+}
+section{
+    display: flex;
+    flex-direction: column;
+     width: 100%;
+    height: 100vh;
+}
+/* home start */
+#home{
+    background: url(../image/bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    box-sizing: border-box;
+    background-size: cover;
+}
+.homecontainer{
+    justify-content: center;
+    margin: 50vh 0rem 1rem 12rem;
+    border: 4px solid white;
+    border-radius: 1rem 7rem 1rem 7rem;
+    padding: 2rem;
+    background-color: rgba(0,0,0,.7); 
+    color: white;
+    width: 50rem;
+    box-shadow: 1px 4px 10px red;
+}
+.homecontainer:hover{
+    box-shadow: -1px -4px 10px green;
+}
+.h1{
+    font-size: 4rem;
+    text-shadow: 1px 0px 1px green;
+    
+}
+.h2{
+    font-size: 3rem;
+    /* text-shadow: -1px 0px 2px yellow; */
+
+}
+.h3{
+    font-size: 6rem;
+    text-shadow: 0px 1px 4px white;
+    color: black;
+}
+.h4{
+    font-size: 2rem;
+    /* text-shadow: 0px 0px 4px white; */
+}
+.h5{
+    font-size: 5rem;
+    text-shadow: 1px 1px 4px green;
+    /* color: black; */
+}
+/* home end */
+/* about start */
+#about{
+    background:rgba(0,0,0,.9);
+    color: white;
+}
+.aboutcontainer{
+    display: flex;
+}
+.aboutimg{
+    padding: 0 5rem;
+    
+}
+.aboutimg img{
+    height: 80vh;
+    width: 60rem;
+    border-radius: 6rem 0rem 6rem 0rem;
+    border: 2px solid black;
+    box-shadow: 1px 1px 5px tomato;
+}
+.aboutimg img:hover{
+    box-shadow: 4px 5px 10px white ;
+}
+.aboutcontainer{
+    padding: 5rem;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+.heading{
+    padding: 5rem 0px 1rem 0;
+    font-size: 4rem;
+    color: orangered;
+}
+.aboutexplain{
+    font-size: 3rem;
+    padding: 1rem;
+}
+/* about start */
+
+/* services start */
+#services{
+    background:rgba(0,0,0,.9);
+    color: white;
+    text-align: center;
+    
+}
+.servicesimg{
+    display: flex;
+
+}
+.serviceheading{
+    padding: 1rem 0px 1rem 5rem;
+    font-size: 4rem;
+    color: orangered;
+
+}
+.imgbox{
+    margin: 2rem;
+    width: 18%;
+    
+}
+.img1 img{
+    height: 55vh;
+    width: 100%;
+    border-radius: 6rem 0rem 6rem 0rem;
+    border: 2px solid black;
+    box-shadow: 1px 1px 5px tomato; 
+    padding: 1rem;
+}
+
+
+/* services end */
+/* health tools start */
+#healthtools{
+    background-color: rgba(0, 0,0,.7);
+    text-align: center;
+}
+.healthcontainer{
+    display: flex;
+    justify-content: space-around;
+    
+    padding:2rem 1rem;
+    margin: 10rem 5rem 3rem 5rem;
+    border-radius: 1.5rem 2rem 3rem 4rem;
+    box-shadow: 3px 5px 10px white, 1px 2px 5px black;
+    /* border: 1px solid red; */
+}
+.bmi{
+    text-align: center;
+    padding: 5rem;
+    box-shadow: 10px -1px 10px black;
+}
+.bmi:hover{
+    box-shadow: 10px 1px 20px red;
+}
+.text{
+    font-size: 2rem;
+    padding: 1rem;
+}
+#h ,#w{
+    width: 60%;
+    font-size: 2rem;
+}
+#btn{
+    font-size: 2rem;
+    margin: 1rem;
+    width: 50%;
+    background-color: rgba(0, 0,0,.4);
+    border-radius: 10px;
+}
+#btn:hover{
+    box-shadow: 1px 1px 4px red;
+    background-color: green;
+}
+#info{
+    font-size: 1.5rem;
+}
+/* bmr start */
+.bmr{
+    text-align: center;
+    padding: 5rem;
+    box-shadow: -10px -1px 10px black;
+}
+.bmr:hover{
+    box-shadow: 10px 1px 20px red;
+}
+.inputbmr{
+    font-size: 2rem;
+    text-align: center;
+}
+#height, #weight, #age ,#height{
+    background-color: transparent;
+    width: 70%;
+    outline: none;
+    border:none ;
+    text-align: center;
+    font-size:2rem ;
+    border-bottom: 1px solid tomato;
+}
+.calculate{
+    width: 50%;
+    border: solid green 2px;
+    color: black;
+    font-size: 2rem;
+    cursor: pointer;
+    background-color: transparent;
+    border-radius: 20px;
+}
+.calculate:hover{
+    background-color: white;
+}
+/* bmr end */
+/* health tools end*/
+/* gym gallary start */
+
+/* gym gallary end */
+/* contact start */
+#contact{
+    padding-top: 2em;
+    box-sizing: border-box;
+    height: 100vh;
+    background-color: black;
+}
+.contactcontent{
+    padding: 1rem 20rem;
+    color: white;
+}
+.form {
+    font-size: 2rem;
+}
+.input{
+    width: 50%;
+    padding: .5rem;
+    box-shadow: 2px 2px 2px blue , -2px -2px 4px white;
+    font-size: 2rem;
+}
+.contactsection{
+    margin: 10rem auto;
+ 
+}
+#submitbtn{
+    width: 100%;
+    justify-content: center;
+    font-size: 2rem;
+    margin: 1rem;
+    box-shadow: 1px 1px 4px yellowgreen;
+}
+#submitbtn:hover{
+    box-shadow: -2px -2px 4px red;
+    cursor: pointer;
+    background-color: gray;
+}
+/* contact end */
+/* footer start */
+.footer{
+    border-top: 1px solid white;
+    font-size: 2rem;
+    width: 100%;
+    height:10vh;
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+.git:hover{
+    background-color: white;
+}
+/* footer end */
+nav .closemenu {
+    display: none;
+    font-size: 2rem;
+    justify-content: center;
+    color: red;
+    cursor: pointer;
+}
+.openmenu{
+    display: none;
+    font-size: 3rem;
+    justify-content: center;
+    cursor: pointer;
+    color: red;
+    margin: 0 4rem;
+}
+/* contact end */
+
+.h10{
+    font-size: 6rem;
+    text-shadow: 0px 1px 4px white;
+    color: black;
+}
+nav .closemenu {
+    display: none;
+    font-size: 2rem;
+    justify-content: center;
+    color: red;
+    cursor: pointer;
+}
+.openmenu{
+    display: none;
+    font-size: 3rem;
+    justify-content: center;
+    cursor: pointer;
+    color: red;
+    margin: 0 4rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

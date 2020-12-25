@@ -1,0 +1,194 @@
+@media only screen and (max-width:1400px){
+    html{
+        font-size: 55%;
+    }
+}
+@media only screen and (max-width:1200px){
+    .aboutexplain{
+        font-size: 2.8rem;
+    }
+    .aboutimg{
+        padding: 3rem;
+        
+    }
+    .aboutimg img{
+        width: 50rem;
+    }
+    .aboutcontainer{
+        padding: 1rem;
+    }
+    .imgbox{
+        display: flex;
+        /* flex-direction: column-reverse; */
+    }
+    .imgbox{
+        margin: .5rem;
+        width: 100%;
+        justify-content: space-evenly;
+        
+    }
+    .img1 img{
+        height: 12vh;
+        width: 30rem;
+        border-radius: 2rem 0rem 2rem 0rem;
+        border: 2px solid black;
+        box-shadow: 1px 1px 5px tomato; 
+        padding: .5rem;
+        /* image-resolution: 20px 20px; */
+    }
+    .servicesimg{
+        flex-direction: column;
+    }
+    .explain{
+        text-align: right;
+    }
+    .img2{
+        flex-direction: row-reverse;
+        
+    }
+    .img5{
+        flex-direction: row-reverse;
+    }
+    .input{
+        width: 100%;
+        padding: .5rem;
+        box-shadow: 2px 2px 1px blue , -2px -2px 1px white;
+        font-size: 2rem;
+    }
+    .contactcontent{
+        padding: 2rem;
+        color: white;
+    }
+
+}
+@media only screen and (max-width:900px){
+    .bmi{
+        padding: 1rem;
+    }
+    .bmr{
+        padding: 1rem;
+    }
+    .healthcontainer{
+        /* margin: 1rem; */
+        justify-content: space-around;
+        /* flex-direction: column; */
+        margin:auto 1rem;
+    }
+    
+    .aboutimg img{
+        height: 30vh;
+        width: 60rem;
+        border-radius: 2rem 0rem 2rem 0rem;
+        border: 2px solid black;
+        box-shadow: 1px 1px 5px tomato;
+        
+    }
+    .h10{
+        font-size: 5rem;
+        text-shadow: 0px 1px 4px white;
+        color: black;
+    }
+    .aboutcontainer{
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width:650px){
+    .healthcontainer{
+        flex-direction: column;
+    }
+    .aboutexplain{
+        font-size: 2.5rem;
+    }
+    .aboutimg img{
+        width: 50rem;
+    }
+    .imgbox{
+        justify-content: space-between;
+    }
+    .img1 img{
+        width: 20rem;
+    }
+    .servicesimg{
+        padding: 1rem;
+    }
+    .navigation{
+        justify-content: space-between;
+    }
+    .navright{
+        height: 50vh;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 10;
+        flex-direction: column-reverse;
+        align-items: center;
+        background-color: rgba(0, 0, 0, .5);
+        transition: top 1s ease;
+        display: none;
+        text-align: center;
+        border-bottom: solid white 2px;
+        border-bottom-left-radius:1rem ;
+        border-bottom-right-radius:1rem ;
+    }
+    .navright .closemenu{
+        display: block;
+        position: absolute;
+        top: 2rem;
+        left: 2rem;
+    }
+    .closemenu{
+        display: block;
+        
+    }
+    nav .openmenu{
+        display: block; 
+        
+    }
+    .navright ul{
+        flex-direction: column;
+    }
+    .navright ul {
+        padding: 10rem;
+        font-size: 3rem;
+    }
+    .homecontainer{
+        margin: 50vh auto;
+
+    }
+}
+@media only screen and (max-width:500px){
+    html{
+      font-size: 50%;
+    }
+    .h1{
+        font-size: 3rem;
+    }
+    .h2{
+        font-size: 2.5rem;
+    }
+    .h3{
+        font-size: 4rem;
+    }
+    .h4{
+        font-size:1.5rem ;
+    }
+    .h5{
+        font-size: 3rem;
+    }
+    .aboutimg img{
+        width: 40rem;
+    }
+    .homecontainer{
+        width: 35rem;
+    }
+    .imgbox{
+        flex-direction: column-reverse;
+    }
+    #services{
+        height: 120vh;
+    }
+    .img1 img{
+        width: 30rem;
+    }
+}
